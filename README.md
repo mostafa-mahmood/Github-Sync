@@ -1,6 +1,6 @@
 # 🚧 Github-Sync (GHS) - Under Construction 🚧
 
-![Work in Progress](https://media.giphy.com/media/l0HlNQ03J5JxX6lva/giphy.gif)
+![Work in Progress](https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExaGJ2Mno5YWZ6OTd3YWhyNmwzZHNuOXRidW9vMWFtemNpcWFubWpxMyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/Dh5q0sShxgp13DwrvG/giphy.gif)
 
 GHS is a CLI tool that automatically tracks your coding activity and commits it to a special GitHub repository to boost your contribution graph.
 
@@ -13,5 +13,5 @@ GHS is a CLI tool that automatically tracks your coding activity and commits it 
 
 
 ## 📜 License
-This project is licensed under the MIT License.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
