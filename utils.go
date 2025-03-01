@@ -6,6 +6,8 @@ import (
 	"os"
 )
 
+// Functinos to handel config directory
+
 type TimerJson struct {
 	TrackedMinutes      int    `json:"tracked_minutes"`
 	TotalSessionMinutes int    `json:"total_session_minutes"`
@@ -19,9 +21,13 @@ type ConfigJson struct {
 	CommitFrequency int    `json:"Commit_Frequency"`
 }
 
-func CreateConfigDirectory() {
+func CreateConfigDirectories() {
 	if !Exists("config") {
 		os.MkdirAll("config", os.ModePerm)
+	}
+
+	if !Exists("repo") {
+		os.MkdirAll("repo", os.ModePerm)
 	}
 }
 

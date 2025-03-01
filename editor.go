@@ -9,7 +9,7 @@ import (
 
 func IsEditorOpened() (bool, error) {
 
-	// windows, linux, darwin
+	// windows, linux, darwin (mac os)
 	os := runtime.GOOS
 
 	var output []byte
